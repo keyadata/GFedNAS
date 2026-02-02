@@ -1,7 +1,6 @@
 # GreenFedNAS: Deep Federated Neural Architecture Search for Edge Intelligence
 
-GreenFedNAS is an automated **energy-aware federated neural architecture search (FedNAS)** framework designed for **heterogeneous deep edge intelligence environments**.  
-It enables different clients to train **lightweight, device-adaptive architectures** while efficiently aggregating them into a global model with minimal energy consumption.
+GreenFedNAS is an automated **energy-aware federated neural architecture search (FedNAS)** framework designed for **heterogeneous deep edge intelligence environments**. It enables different clients to train **lightweight, device-adaptive architectures** while efficiently aggregating them into a global model with minimal energy consumption.
 
 ## Key Contributions
 - Heterogeneous client architectures
