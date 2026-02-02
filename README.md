@@ -10,8 +10,8 @@ GreenFedNAS is an automated **energy-aware federated neural architecture search 
     - Direct weight injection
     - Knowledge distillation
     - Projection-based alignment
--Energy measurement support (e.g., CodeCarbon, reported in Wh)  
--Paper-oriented experiments: Accuracy–Energy, EER, scalability, and trade-off analyses  
+-Energy measurement support (e.g., CodeCarbon, reported in Wh)
+  
 
 ## Framework Highlights
 
