@@ -1,14 +1,25 @@
-# GreenFedNAS: Energy-Efficient Federated Neural Architecture Search
+# GreenFedNAS: Deep Federated Neural Architecture Search for Edge Intelligence
 
-GreenFedNAS is an energy-aware **Federated Neural Architecture Search (FedNAS)** framework designed for **heterogeneous, resource-constrained edge environments** such as IoT sensors, wearables, and drones. The framework jointly optimizes **client participation** and **neural architecture selection** to reduce energy consumption while maintaining strong global model performance under non-IID data.
-
----
+GreenFedNAS is an automated **energy-aware federated neural architecture search (FedNAS)** framework designed for **heterogeneous deep edge intelligence environments**.  
+It enables different clients to train **lightweight, device-adaptive architectures** while efficiently aggregating them into a global model with minimal energy consumption.
 
 ## Key Contributions
-- Energy-aware client participation for heterogeneous devices  
-- Lightweight, client-adaptive architectures (parameter- and FLOPs-efficient)  
-- Federated aggregation tailored for non-IID settings  
-- Energy measurement support (e.g., CodeCarbon, reported in Wh)  
-- Paper-oriented experiments: Accuracy–Energy, EER, scalability, and trade-off analyses  
+- Heterogeneous client architectures
+- Training-free NAS using **Kernel-based NAS (KNAS)**
+- Energy-aware client selection
+- Cross-architecture aggregation via:
+    - Direct weight injection
+    - Knowledge distillation
+    - Projection-based alignment
+-Energy measurement support (e.g., CodeCarbon, reported in Wh)  
+-Paper-oriented experiments: Accuracy–Energy, EER, scalability, and trade-off analyses  
+
+## Framework Highlights
+
+- **Green Federated Learning (Green FL)** focus  
+- **NAS-driven automation** 
+- **Energy–accuracy trade-off optimisation**
+- Designed for **edge devices** (IoT, wearables, mobile, drones)
+
 
 
